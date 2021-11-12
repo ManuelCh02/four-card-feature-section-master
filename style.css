@@ -2,11 +2,11 @@
     /* Primary Colors */
     --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 62%, 55%);
-    --orange: Orange: hsl(34, 97%, 64%);
+    --orange: hsl(34, 97%, 64%);
     --blue: hsl(212, 86%, 64%);
 
     /* Neutral Colors */
-    --very-dar-blue: hsl(234, 12%, 34%);
+    --very-dark-blue: hsl(234, 12%, 34%);
     --grayish-blue: hsl(229, 6%, 66%);
     --very-light-gray: hsl(0, 0%, 98%);
 }
@@ -20,4 +20,129 @@
 
 html {
     font-size: 62.5%;
+}
+
+main {
+    padding: 0 30px;
+}
+
+/*** Title Section ***/
+.title-section {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 475px;
+    text-align: center;
+}
+
+.top-title {
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--grayish-blue);
+}
+
+.bottom-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--very-dark-blue);
+}
+
+.title-description {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: var(--grayish-blue);
+    opacity: 0.7;
+}
+
+.cards-section {
+    margin-bottom: 60px;
+    display: grid;
+    gap: 25px;
+}
+
+.sup-container {
+    padding: 20px;
+    width: 100%;
+    box-shadow: 1px 8px 15px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-top: 4px solid var(--cyan);
+}
+
+/*** Global Styles ***/
+.sub-container {
+    display: grid;
+}
+
+.card-title {
+    font-size: 1.7rem;
+    color: var(--very-dark-blue);
+}
+
+.card-main {
+    font-size: 1.3rem;
+    color: var(--grayish-blue);
+}
+
+
+/* Retaking basic Styles */
+.supervisor-icon {
+    margin-top: 20px;
+    justify-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background-image: url('./assets/icon/icon-supervisor.svg');
+    background-size: contain;
+}
+
+.team-container {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 8px 15px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-top: 4px solid var(--red);
+}
+
+.team-builder-icon {
+    margin-top: 20px;
+    justify-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background-image: url('./assets/icon/icon-team-builder.svg');
+    background-size: contain;
+}
+
+.karma-container {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 8px 15px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-top: 4px solid var(--orange);
+}
+
+.karma-icon {
+    margin-top: 20px;
+    justify-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background-image: url('./assets/icon/icon-karma.svg');
+    background-size: contain;
+}
+
+.calculator-container {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 8px 15px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-top: 4px solid var(--blue);
+}
+
+.calculator-icon {
+    margin-top: 20px;
+    justify-self: flex-end;
+    width: 50px;
+    height: 50px;
+    background-image: url('./assets/icon/icon-calculator.svg');
+    background-size: contain;
 }
