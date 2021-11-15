@@ -56,7 +56,6 @@ main {
 .cards-section {
     margin-bottom: 60px;
     display: grid;
-    grid-auto-columns: auto-fill;
     gap: 25px;
 }
 
