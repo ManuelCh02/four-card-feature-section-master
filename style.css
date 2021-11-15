@@ -90,7 +90,7 @@ main {
     justify-self: flex-end;
     width: 50px;
     height: 50px;
-    background-image: url('./assets/icon/icon-supervisor.svg');
+    background-image: url('../practice-5/assets/img/icon-supervisor.svg');
     background-size: contain;
 }
 
@@ -109,7 +109,7 @@ main {
     justify-self: flex-end;
     width: 50px;
     height: 50px;
-    background-image: url('./assets/icon/icon-team-builder.svg');
+    background-image: url('../practice-5/assets/img/icon-team-builder.svg');
     background-size: contain;
 }
 
@@ -128,7 +128,7 @@ main {
     justify-self: flex-end;
     width: 50px;
     height: 50px;
-    background-image: url('./assets/icon/icon-karma.svg');
+    background-image: url('../practice-5/assets/img/icon-karma.svg');
     background-size: contain;
 }
 
@@ -147,7 +147,7 @@ main {
     justify-self: flex-end;
     width: 50px;
     height: 50px;
-    background-image: url('./assets/icon/icon-calculator.svg');
+    background-image: url('../practice-5/assets/img/icon-calculator.svg');
     background-size: contain;
 }
 
